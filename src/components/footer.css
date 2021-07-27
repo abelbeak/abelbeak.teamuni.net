@@ -1,0 +1,20 @@
+footer {
+    height: 150px;
+    line-height: 150px;
+    background-color: #282828;
+    color: #999999;
+    font-family: NotoSansCJKKR;
+    font-size:16px;
+    
+    text-align: center;
+    margin: auto;
+}
+
+footer div {
+    line-height: 1.5;
+    display: inline-block;;
+    vertical-align: middle;
+}
+
+
+

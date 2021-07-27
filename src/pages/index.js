@@ -1,11 +1,20 @@
 import * as React from "react"
+import Navigation from "../components/Header"
+import Footer from '../components/footer'
+import Contact from "./Contact/Contact"
+import './index.css'
 
-const IndexPage = () => (
-  <main>
-    <h1>AbelBeak's Project</h1>
-    <p>this is my first web project</p>
-    <p>gatsby 구조가 마치 vue js같네</p>
-  </main>
-)
+
+function IndexPage() {
+  return (
+  <>
+    <Navigation/>
+    <div className="main-wrapper">
+      <Contact/>
+    </div>
+    <Footer/>
+  </>
+  )
+}
 
 export default IndexPage
